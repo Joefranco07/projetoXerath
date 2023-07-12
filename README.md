@@ -18,8 +18,8 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto Xerath" src="C:\a\.github\preview.png" 
-  width="100%">
+  <img alt="projeto Xerath" src=".github/preview.png" 
+  width="100%"
 </p>
 
 ## 🚀 Tecnologias
@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+Um projeto teste, que teve como premissa utilizar os conhecimentos do curso para confecção de uma pagina que brincasse com as skill de um personagem de jogo. 
 
 ## 🔖 Layout
 
