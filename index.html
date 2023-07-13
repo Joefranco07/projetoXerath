@@ -10,7 +10,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DebLinks</title>
+    <title>Projeto Xerath</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="light">
@@ -28,19 +28,23 @@
       </div>
       <ul>
         <li>
-          <a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0101/ability_0101_Q1.webm" target="_blank" >Pulso Arcano</a>
+          <a  id="xerath1" href="#" onclick="toggleVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0101/ability_0101_Q1.webm')">Pulso Arcano</a>
+              <iframe id="video" src="" width="600" height="400" title="Vídeo do Pulso Arcano" style="display: none; float: right;"></iframe>
         </li>
 
         <li>
-          <a href="#">Olho da Destruição</a>
+         <a href="#" onclick="toggleVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0101/ability_0101_W1.webm')">Olho da Destruição</a>
+              <iframe id="video" src="" width="600" height="400" title="Vídeo de Olho da Destruição" style="display: none; float: right;"></iframe>
         </li>
 
         <li>
-          <a href="#">Orbe Eletrizante</a>
+         <a href="#" onclick="toggleVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0101/ability_0101_E1.webm')">Orbe Eletrizante</a>
+              <iframe id="video" src="" width="600" height="400" title="Vídeo de Orbe Eletrizante" style="display: none; float: right;"></iframe>
         </li>
 
         <li>
-          <a href="#">Ritual Arcano</a>
+         <a href="#" onclick="toggleVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0101/ability_0101_R1.webm')">Ritual Arcano</a>
+              <iframe id="video" src="" width="600" height="400" title="Vídeo de Ritual Arcano" style="display: none; float: right;"></iframe>
         </li>
       </ul>
       <div id="social-links">
@@ -81,5 +85,17 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="./script.js"></script>
+   <script>
+  function toggleVideo(url) {
+    var video = document.getElementById("video");
+    if (video.style.display == "none") {
+      video.src = url;
+      video.style.display = "block";
+    } else {
+      video.src = "";
+      video.style.display = "none";
+    }
+  }
+</script>
   </body>
 </html>

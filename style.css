@@ -112,6 +112,10 @@ ul li a {
   font-weight: 500;
   transition: background 0.2s;
 }
+iframe {
+  float: Right;
+}
+
 /*pseudo-selector*/
 ul li a:hover {
   border: 1.5px solid var(--text-color);
@@ -145,3 +149,4 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
